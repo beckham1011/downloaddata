@@ -1,0 +1,8 @@
+---
+applications:
+  - name: ccm-exportdata-dev
+    buildpack: java_buildpack
+    path: target/exportdata-0.0.1-SNAPSHOT.jar
+    services:
+    - ccm-db-dev
+    memory: 1GB
