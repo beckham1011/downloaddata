@@ -25,6 +25,7 @@ public class Application {
 		TomcatEmbeddedServletContainerFactory tomcatFactory = new TomcatEmbeddedServletContainerFactory();  
         tomcatFactory.addConnectorCustomizers(new CCMTomcatConnectorCustomizer());  
 		System.out.println("Test");
+		
 		return tomcatFactory;
 	}
 }
